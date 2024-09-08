@@ -1,3 +1,15 @@
+"SIAM":
+  color: "#ff3232"
+
+"Conference":
+  color: "#29d637"
+  
+"Journal":
+  color: "#fc7430"  
+  
+"Preprint":
+  color: "#77aefc"    
+
 "AJP":
   url: https://aapt.scitation.org/journal/ajp
   color: "#00369f"
@@ -7,7 +19,3 @@
 
 "Vision":
   color: "#009f36"
-  
-"SIAM":
-  color: "#ff3232"  
-  

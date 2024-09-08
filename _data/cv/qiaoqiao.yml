@@ -1,0 +1,83 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Email Address
+      value: your_email_name at sjtu dot edu dot cn
+    - name: Research Interests
+      value: xx, xx
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Example 1
+      institution: Shanghai Jiao Tong University
+      year: 2021 - Now
+      description:
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Example 2
+      institution: National University of Singapore
+      year: 2018 - 2021
+      description:
+        - Description 1.
+        - Description 2.
+      
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Mathematics
+      institution: Shanghai Jiao Tong University
+      year: 2014 - 2018
+      description:
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Master in Mathematics
+      institution: Shanghai Jiao Tong University
+      year: 2011 - 2014
+      description:
+        - Description 1.
+        - Description 2.
+
+- title: Research Experience & Internships
+  type: time_table
+  contents:
+    - title: Munster University 
+      year: 2014 - 2015
+      description: CSC Scholarship
+
+- title: Selected Publications
+  type: publications
+  contents:
+    - year: 2024.01
+      name: title of the paper 1
+      publisher: Journal of the publisher 1
+      authors: Author 1, Author 2, etc.
+      url: https://ins.sjtu.edu.cn (leave empty if not available)
+    - year: 2024.01
+      name: title of the paper 2
+      publisher: Journal of the publisher 2
+      authors: Author 1, Author 2, etc.
+      url: https://ins.sjtu.edu.cn (leave empty if not available)
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2021
+      items:
+        - 上海海外高层次人才计划
+    - year: 2020
+      items:
+        - Placeholder
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
