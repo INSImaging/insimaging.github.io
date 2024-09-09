@@ -1,7 +1,3 @@
-"liang":
-  - firstname: ["Jingwei"]
-    url: https://jliang993.github.io/
-
 "zhang":
   - firstname: ["Xiaoqun"]
     url: https://math.sjtu.edu.cn/faculty/xqzhang/
@@ -9,3 +5,7 @@
 "ding":
   - firstname: ["Qiaoqiao"]
     url: https://insimaging.github.io/people/qiaoqiaoding/
+
+"liang":
+  - firstname: ["Jingwei"]
+    url: https://jliang993.github.io/
