@@ -1,12 +1,17 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
-inline: false
+title: Group webpage online.
+date: 2024-09-09
+inline: false # true, for only showing in front page, no separate page
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+<!-- A simple inline announcement with Markdown emoji! :sparkles: :smile: -->
+
+Our group webpage is now online! There are several steps more to complete the webpage, and the first step is to update the **people** page. To this end, we need you to complete the two files which can be downloaded from [here](/assets/file/information.zip "download").
+
+
+http://localhost:4000/news/group_webpage_online/assets/file/information.zip
 
 ---
 

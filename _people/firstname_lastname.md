@@ -1,9 +1,10 @@
 ---
 layout: page
-title: San Zhang
+title: Firstname Lastname
 description: 
 img: assets/img/people/profile.jpg
 importance: 1
 category: undergraduate
-related_publications: true
 ---
+
+Here you can write some introduction about yourself.

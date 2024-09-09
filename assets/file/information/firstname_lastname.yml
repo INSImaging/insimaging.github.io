@@ -1,0 +1,89 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Email Address
+      value: your_email_name at sjtu dot edu dot cn
+    - name: Research Interests
+      value: xx, xx
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: name of the position
+      institution: name of the institute
+      year: start year - end year
+      description:
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: name of the position
+      institution: name of the institute
+      year: start year - end year
+      description:
+        - Description 1.
+        - Description 2.
+      
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Mathematics
+      institution: name of the institute
+      year: start year - end year
+      description:
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Master in Mathematics
+      institution: name of the institute
+      year: start year - end year
+      description:
+        - Description 1.
+        - Description 2.
+    - title: Bachelor in Mathematics
+      institution: name of the institute
+      year: start year - end year
+      description:
+        - Description 1.
+        - Description 2.
+
+- title: Research Experience & Internships
+  type: time_table
+  contents:
+    - title: name of the experience
+      year: 2014 - 2015
+      description: extra information
+
+- title: Selected Publications
+  type: publications
+  contents:
+    - year: 2024.01
+      name: title of the paper 1
+      publisher: Journal of the publisher 1
+      authors: Author 1, Author 2, etc.
+      url: link to the paper
+    - year: 2024.01
+      name: title of the paper 2
+      publisher: Journal of the publisher 2
+      authors: Author 1, Author 2, etc.
+      url: link to the paper
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2024
+      items:
+        - name of the honor or awards
+    - year: 2023
+      items:
+        - name of the honor or awards
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

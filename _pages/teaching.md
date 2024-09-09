@@ -1,21 +1,30 @@
 ---
 layout: page
-title: teaching
+title: teaching 
 permalink: /teaching/
-description: Materials for courses you taught. Replace this text with your description.
+description: under construction
 nav: true
 nav_order: 4
 horizontal: true
+display_categories: [undergraduate, graduate]
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<!-- For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course. -->
 
-Organize your courses by years, topics, or universities, however you like!
+<!-- Organize your courses by years, topics, or universities, however you like! -->
 
 <!-- pages/teaching.md -->
 <div class="teaching">
 
-{% assign sorted_teaching = site.teaching | sort: "importance" %}
+<!-- Display categorized projects -->
+  {% for category in page.display_categories %}
+
+  <a id="{{ category }}" href=".#{{ category }}">
+    <h2 class="category">{{ category }}</h2>
+  </a>
+
+{% assign categorized_teaching = site.teaching | where: "category", category %}
+{% assign sorted_teaching = categorized_teaching | sort: "importance" %}
 
 <!-- Generate cards for each project -->
 {% if page.horizontal %}
@@ -37,5 +46,7 @@ Organize your courses by years, topics, or universities, however you like!
   </div>
 
 {% endif %}
+
+{% endfor %}
 
 </div>

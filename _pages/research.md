@@ -10,7 +10,7 @@ horizontal: true
 ---
 
 
-### Our research scope
+### our research scope
 
 **Mathematical Imaging Processing**
 We focus on developing advanced mathematical techniques to improve image quality and analysis. This involves creating algorithms for noise reduction, image enhancement, and feature extraction, which are crucial for various applications in science and technology.
@@ -25,7 +25,7 @@ We apply machine learning to solve complex problems across a range of discipline
 Our optimization research focuses on finding the most efficient solutions to complex problems. This includes optimizing algorithms for speed and accuracy in computational tasks, as well as addressing real-world challenges in engineering, logistics, and resource management.
 
 
-### Grants
+### grants (to be update)
 
 
 

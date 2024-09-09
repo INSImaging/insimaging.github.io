@@ -9,9 +9,9 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Example 1
-      institution: Shanghai Jiao Tong University
-      year: 2021 - Now
+    - title: name of the position
+      institution: name of the institute
+      year: start year - end year
       description:
         - Description 1.
         - Description 2.
@@ -19,9 +19,9 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Example 2
-      institution: National University of Singapore
-      year: 2018 - 2021
+    - title: name of the position
+      institution: name of the institute
+      year: start year - end year
       description:
         - Description 1.
         - Description 2.
@@ -30,8 +30,8 @@
   type: time_table
   contents:
     - title: PhD in Mathematics
-      institution: Shanghai Jiao Tong University
-      year: 2014 - 2018
+      institution: name of the institute
+      year: start year - end year
       description:
         - Description 1.
         - Description 2.
@@ -40,8 +40,14 @@
             - Sub-description 1.
             - Sub-description 2.
     - title: Master in Mathematics
-      institution: Shanghai Jiao Tong University
-      year: 2011 - 2014
+      institution: name of the institute
+      year: start year - end year
+      description:
+        - Description 1.
+        - Description 2.
+    - title: Bachelor in Mathematics
+      institution: name of the institute
+      year: start year - end year
       description:
         - Description 1.
         - Description 2.
@@ -49,9 +55,9 @@
 - title: Research Experience & Internships
   type: time_table
   contents:
-    - title: Munster University 
+    - title: name of the experience
       year: 2014 - 2015
-      description: CSC Scholarship
+      description: extra information
 
 - title: Selected Publications
   type: publications
@@ -60,22 +66,22 @@
       name: title of the paper 1
       publisher: Journal of the publisher 1
       authors: Author 1, Author 2, etc.
-      url: https://ins.sjtu.edu.cn (leave empty if not available)
+      url: link to the paper
     - year: 2024.01
       name: title of the paper 2
       publisher: Journal of the publisher 2
       authors: Author 1, Author 2, etc.
-      url: https://ins.sjtu.edu.cn (leave empty if not available)
+      url: link to the paper
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2021
+    - year: 2024
       items:
-        - 上海海外高层次人才计划
-    - year: 2020
+        - name of the honor or awards
+    - year: 2023
       items:
-        - Placeholder
+        - name of the honor or awards
 
 - title: Other Interests
   type: list
