@@ -1,8 +1,8 @@
 ---
 layout: page
-title: research
+title: Research
 permalink: /research/
-description: A growing collection of your cool projects.
+description: Our research topics and supported grants.
 nav: true
 nav_order: 2
 display_categories: [work, fun]
@@ -10,7 +10,8 @@ horizontal: true
 ---
 
 
-### our research scope
+---
+### Our research scope
 
 **Mathematical Imaging Processing**
 We focus on developing advanced mathematical techniques to improve image quality and analysis. This involves creating algorithms for noise reduction, image enhancement, and feature extraction, which are crucial for various applications in science and technology.
@@ -24,11 +25,8 @@ We apply machine learning to solve complex problems across a range of discipline
 **Optimization**
 Our optimization research focuses on finding the most efficient solutions to complex problems. This includes optimizing algorithms for speed and accuracy in computational tasks, as well as addressing real-world challenges in engineering, logistics, and resource management.
 
-
-### grants (to be update)
-
-
-
+---
+### Grants (to be update)
 
 <!-- pages/research.md -->
 <div class="project">

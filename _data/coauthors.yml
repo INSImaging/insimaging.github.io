@@ -1,11 +1,11 @@
 "zhang":
-  - firstname: ["Xiaoqun"]
+  - firstname: ["Xiaoqun", "X."]
     url: https://math.sjtu.edu.cn/faculty/xqzhang/
 
 "ding":
-  - firstname: ["Qiaoqiao"]
+  - firstname: ["Qiaoqiao", "Q."]
     url: https://insimaging.github.io/people/qiaoqiaoding/
 
 "liang":
-  - firstname: ["Jingwei"]
+  - firstname: ["Jingwei", "J."]
     url: https://jliang993.github.io/

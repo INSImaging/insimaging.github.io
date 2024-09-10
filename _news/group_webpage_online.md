@@ -30,7 +30,7 @@ The markdown file is rather easy to complete, as you only need to fill the follo
 You need to
  - Change the "Firstname Lastname" to your name.
  - Change the "profile.jpg" to your picture's name, also the file format if it is not JPG picture.
- - Change the category to yours, choices of category include "faculty, postdoc, phd student, master student, undergraduate, alumni".
+ - Change the category to yours, choices of category include "Faculty, Post-doc, PhD student, Master student, Undergraduate, Alumni".
 
 You can also write some introduction about yourself in the file.
 

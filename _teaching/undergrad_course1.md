@@ -4,8 +4,8 @@ title: Mathematical Programming
 description: for year three undergraduate students
 img: assets/img/3.jpg
 importance: 2
-category: undergraduate
-giscus_comments: true
+category: Undergraduate course
+giscus_comments: false
 ---
 
 Every project has a beautiful feature showcase page.

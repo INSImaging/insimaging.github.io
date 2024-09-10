@@ -1,11 +1,11 @@
 ---
 layout: page
 permalink: /people/
-title: people
-description: members of the group
+title: People
+description: Members of the group.
 nav: true
 nav_order: 1
-display_categories: [faculty, postdoc, phd student, master student, undergraduate, alumni]
+display_categories: [Faculty, Post-doc, PhD student, Master student, Undergraduate, Alumni]
 ---
 
 
@@ -13,7 +13,7 @@ display_categories: [faculty, postdoc, phd student, master student, undergraduat
 <div class="people">
 
   <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
+  {% for category in page.display_categories %}  
 
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>

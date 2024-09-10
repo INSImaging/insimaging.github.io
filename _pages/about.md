@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Institute of Natural Sciences, Shanghai Jiao Tong University
+subtitle: <a href='#'>Affiliation</a> Institute of Natural Sciences, Shanghai Jiao Tong University
 
 profile:
   align: right

@@ -4,7 +4,7 @@ title: Selected Topics in Non-smooth Optimization
 description: for graduate student
 img: assets/img/12.jpg
 importance: 1
-category: graduate
+category: Graduate course
 related_publications: true
 ---
 

@@ -1,12 +1,12 @@
 ---
 layout: page
-title: teaching 
+title: Teaching 
 permalink: /teaching/
-description: under construction
+description: Under construction.
 nav: true
 nav_order: 4
 horizontal: true
-display_categories: [undergraduate, graduate]
+display_categories: [Undergraduate course, Graduate course]
 ---
 
 <!-- For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course. -->

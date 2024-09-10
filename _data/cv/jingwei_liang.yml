@@ -1,0 +1,95 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Email Address
+      value: jingwei dot liang at sjtu dot edu dot cn
+    - name: Research Interests
+      value: Non-smooth optimization, image processing, machine learning
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Tenure-track Associate Professor
+      institution: Institute of Natural Sciences, Shanghai Jiao Tong University
+      year: 2021.07 - Now
+      # description:
+      #   - Description 1.
+      #   - Description 2.
+      #   - title: Description 3.
+      #     contents:
+      #       - Sub-description 1.
+      #       - Sub-description 2.
+    - title: Lecturer in Mathematical Data Science
+      institution: School of Mathematical Sciences, Queen Mary University of London
+      year: 2020.11 - 2021.06
+      # description:
+      #   - Description 1.
+      #   - Description 2.
+    - title: Postdoc Research Associate
+      institution: Department of Applied Mathematics and Theoretical Physics, University of Cambridge
+      year: 2017.04 - 2020.08
+      # description:
+      #   - Description 1.
+      #   - Description 2.      
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Mathematics
+      institution: GREYC, University of Caen Normandy, France
+      year: 2013.10 - 2017.01
+      # description:
+      #   - Description 1.
+      #   - Description 2.
+      #   - title: Description 3.
+      #     contents:
+      #       - Sub-description 1.
+      #       - Sub-description 2.
+    - title: Master in Mathematics
+      institution: School of Mathematical Sciences, Shanghai Jiao Tong University
+      year: 2010.09 - 2013.03
+      # description:
+      #   - Description 1.
+      #   - Description 2.
+    - title: Bachelor in Information Engineering
+      institution: Najing University of Posts and Telecommunications
+      year: 2006.09 - 2010.06
+      # description:
+      #   - Description 1.
+      #   - Description 2.
+
+# - title: Research Experience & Internships
+#   type: time_table
+#   contents:
+#     - title: name of the experience
+#       year: 2014 - 2015
+#       description: extra information
+
+# - title: Selected Publications
+#   type: publications
+#   contents:
+#     - year: 2024.01
+#       name: title of the paper 1
+#       publisher: Journal of the publisher 1
+#       authors: Author 1, Author 2, etc.
+#       url: link to the paper
+#     - year: 2024.01
+#       name: title of the paper 2
+#       publisher: Journal of the publisher 2
+#       authors: Author 1, Author 2, etc.
+#       url: link to the paper
+
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 2024
+#       items:
+#         - name of the honor or awards
+#     - year: 2023
+#       items:
+#         - name of the honor or awards
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
