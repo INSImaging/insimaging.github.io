@@ -11,5 +11,5 @@ toc:
 redirect: https://qqding.github.io
 webpage: true
 scholar: https://scholar.google.com.sg/citations?user=3WYB4xAAAAAJ&hl=en
-github: false
+github: https://github.com/qqding
 ---
