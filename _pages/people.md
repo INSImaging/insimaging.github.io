@@ -16,7 +16,7 @@ display_categories: [Faculty, Post-doc, PhD student, Master student, Undergradua
   {% for category in page.display_categories %}  
 
   <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
+    <h3 class="category">{{ category }}</h3>
   </a>
 
   {% assign categorized_people = site.people | where: "category", category %}

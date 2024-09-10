@@ -20,7 +20,7 @@ display_categories: [Undergraduate course, Graduate course]
   {% for category in page.display_categories %}
 
   <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
+    <h3 class="category">{{ category }}</h3>
   </a>
 
 {% assign categorized_teaching = site.teaching | where: "category", category %}

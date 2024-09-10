@@ -1,0 +1,4 @@
+<div class="publications">
+  {% assign current_year = "now" | date: "%Y" %}
+  {% bibliography --group_by none --query @*[year={{ current_year }}]* %}
+</div>

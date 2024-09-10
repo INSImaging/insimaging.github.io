@@ -10,8 +10,7 @@ horizontal: true
 ---
 
 
----
-### Our research scope
+<h3 class="section-title">Our research scope</h3>
 
 **Mathematical Imaging Processing**
 We focus on developing advanced mathematical techniques to improve image quality and analysis. This involves creating algorithms for noise reduction, image enhancement, and feature extraction, which are crucial for various applications in science and technology.
@@ -25,8 +24,9 @@ We apply machine learning to solve complex problems across a range of discipline
 **Optimization**
 Our optimization research focuses on finding the most efficient solutions to complex problems. This includes optimizing algorithms for speed and accuracy in computational tasks, as well as addressing real-world challenges in engineering, logistics, and resource management.
 
----
-### Grants (to be update)
+
+<h3 class="section-title">Grants (to be update)</h3>
+
 
 <!-- pages/research.md -->
 <div class="project">
@@ -34,10 +34,12 @@ Our optimization research focuses on finding the most efficient solutions to com
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
+    <h3 class="category">{{ category }}</h3>
   </a>
+
   {% assign categorized_projects = site.research | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
+
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
@@ -65,7 +67,6 @@ Our optimization research focuses on finding the most efficient solutions to com
   <!-- Generate cards for each project -->
 
 {% if page.horizontal %}
-
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
     {% for project in sorted_projects %}

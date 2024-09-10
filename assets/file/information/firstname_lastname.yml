@@ -2,16 +2,18 @@
   type: map
   contents:
     - name: Email Address
-      value: your_email_name at sjtu dot edu dot cn
+      value: emailname at sjtu dot edu dot cn # do not use the full email address to avoid spam
+    - name: Address
+      value: Room xx, No.6 Sicence Building
     - name: Research Interests
-      value: xx, xx
+      value: Non-smooth optimization, image processing, machine learning
 
-- title: Experience
+- title: Experience # this is for working experience
   type: time_table
   contents:
-    - title: name of the position
-      institution: name of the institute
-      year: start year - end year
+    - title: title of position
+      institution: Institute of Natural Sciences, Shanghai Jiao Tong University
+      year: xxxx.xx - Now
       description:
         - Description 1.
         - Description 2.
@@ -19,19 +21,20 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: name of the position
-      institution: name of the institute
-      year: start year - end year
+    - title: title of position
+      institution: name of school, name of university
+      year: xxxx.xx - xxxx.xx
       description:
         - Description 1.
         - Description 2.
-      
+
+
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Mathematics
-      institution: name of the institute
-      year: start year - end year
+    - title: Master in Subject
+      institution: name of school, name of university
+      year: xxxx.xx - xxxx.xx
       description:
         - Description 1.
         - Description 2.
@@ -39,15 +42,9 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Master in Mathematics
-      institution: name of the institute
-      year: start year - end year
-      description:
-        - Description 1.
-        - Description 2.
-    - title: Bachelor in Mathematics
-      institution: name of the institute
-      year: start year - end year
+    - title: Bachelor in Subject
+      institution: name of school, name of university
+      year: xxxx.xx - xxxx.xx
       description:
         - Description 1.
         - Description 2.
@@ -63,13 +60,13 @@
   type: publications
   contents:
     - year: 2024.01
-      name: title of the paper 1
-      publisher: Journal of the publisher 1
+      name: title of the paper
+      publisher: name of the journal
       authors: Author 1, Author 2, etc.
       url: link to the paper
     - year: 2024.01
       name: title of the paper 2
-      publisher: Journal of the publisher 2
+      publisher: name of the journal
       authors: Author 1, Author 2, etc.
       url: link to the paper
 
@@ -86,4 +83,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <b>Hobbies:</b> Hobby 1, Hobby 2, etc.

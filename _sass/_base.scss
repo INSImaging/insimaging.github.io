@@ -39,6 +39,24 @@ table {
   }
 }
 
+h3.section-title {
+  color: var(--global-text-color);
+  border-bottom: 1px solid var(--global-divider-color);
+  padding-top: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+h4.card-title{
+  color: var(--global-text-color);
+  border-bottom: 1px solid var(--global-divider-color);
+  // padding-top: 0.5rem;
+  // // margin-top: 1rem;
+  // margin-bottom: 1rem;
+  // text-align: left;
+}
+
 a,
 table.table a {
   color: var(--global-theme-color);
@@ -647,7 +665,7 @@ footer.sticky-bottom {
 
 // Projects
 
-.projects {
+.project {
   a {
     text-decoration: none;
 
@@ -674,7 +692,16 @@ footer.sticky-bottom {
     margin-bottom: 10px;
   }
 
-  h2.category {
+  h3.pj_category {
+    color: var(--global-divider-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-top: 10.5rem;
+    margin-top: 12rem;
+    margin-bottom: 11rem;
+    text-align: right;
+  }
+
+  h3.category {
     color: var(--global-divider-color);
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
@@ -714,7 +741,7 @@ footer.sticky-bottom {
     margin-bottom: 10px;
   }
 
-  h2.category {
+  h3.category {
     color: var(--global-divider-color);
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
@@ -776,7 +803,6 @@ footer.sticky-bottom {
 
 // People
 
-
 .people {
   a {
     text-decoration: none;
@@ -805,7 +831,7 @@ footer.sticky-bottom {
   }
 
 
-  h2.category {
+  h3.category {
     color: var(--global-text-color); //var(--global-divider-color);
     border-bottom: 1.25px solid var(--global-divider-color);
     padding-top: 1rem;
@@ -817,9 +843,6 @@ footer.sticky-bottom {
  
 
 }
-
-
-
 
 // Teaching
 
@@ -850,14 +873,29 @@ footer.sticky-bottom {
     margin-bottom: 10px;
   }
 
-  h2.category {
+  h3.category {
     color: var(--global-text-color); //var(--global-divider-color);
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     text-align: left;
   }
+}
+
+// extra_info in homepage
+
+.extra_info {
+  
+  h4 {
+    color: var(--global-text-color); //var(--global-divider-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-top: 0.75rem;
+    margin-top: 0.5rem;
+    margin-bottom:0.75rem;
+    text-align: left;
+  }
+
 }
 
 // Publications

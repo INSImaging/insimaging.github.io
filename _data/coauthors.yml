@@ -9,3 +9,31 @@
 "liang":
   - firstname: ["Jingwei", "J."]
     url: https://jliang993.github.io/
+
+"schönlieb":
+  - firstname: ["Carola-Bibiane", "C.-B."]
+    url: https://www.damtp.cam.ac.uk/user/cbs31
+
+"schonlieb":
+  - firstname: ["Carola-Bibiane", "C.-B."]
+    url: https://www.damtp.cam.ac.uk/user/cbs31
+
+"wang":
+  - firstname: ["Yu Guang", "Yuguang"]
+    url: https://yuguangwang.github.io/
+
+# "tang":
+#   - firstname: ["Junqi", "J."]
+#     url: https://junqitang.com/
+
+"poon":
+    - firstname: ["Clarice"]
+      url: https://cmhsp2.github.io/
+
+"peyre":
+    - firstname: ["Gabriel"]
+      url: https://www.gpeyre.com/
+
+"fadili":
+    - firstname: ["Jalal"]      
+      url: https://fadili.users.greyc.fr/
