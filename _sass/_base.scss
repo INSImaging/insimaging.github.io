@@ -258,11 +258,6 @@ ul.task-list input[type="checkbox"] {
   margin-right: 2rem;
 }
 
-.profile.float-center {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 @media (min-width: 576px) {
   .profile {
     width: 30%;
@@ -1044,12 +1039,19 @@ footer.sticky-bottom {
               text-decoration: none;
             }
           }
-        }
+        }        
+      }
 
-        .award {
-          color: var(--global-theme-color) !important;
-          border: 1px solid var(--global-theme-color);
-        }
+      .award {
+        // font-weight: 300;
+        color: white; //var(--global-text-color) !important;
+        border: 1px solid var(--global-theme-color);
+      }
+
+      .spot {
+        // font-weight: 500;
+        color: white; //var(--global-text-color) !important;
+        border: 1px solid var(--global-theme-color);
       }
 
       .title {
@@ -1099,7 +1101,14 @@ footer.sticky-bottom {
           }
         }
         a.award.btn {
+          color: #fff;
           border-color: var(--global-highlight-color);
+          background-color: var(--global-highlight-color);
+        }
+        a.spot.btn {
+          color: #fff;
+          border-color: var(--global-highlight-color);
+          background-color: var(--global-highlight-color);
         }
       }
 
@@ -1157,6 +1166,13 @@ footer.sticky-bottom {
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
+
+      div.spot.hidden {
+        border: dashed 1px var(--global-bg-color);
+      }
+      div.spot.hidden.open {
+        border-color: var(--global-highlight-color);
+      }
     }
     div.award.hidden {
       border: dashed 1px var(--global-bg-color);
@@ -1164,6 +1180,8 @@ footer.sticky-bottom {
     div.award.hidden.open {
       border-color: var(--global-highlight-color);
     }
+
+    
   }
 }
 
@@ -1962,3 +1980,5 @@ table {
   // background-color: var(--global-badge-color);  // _themes.scss
   // color: var(--global-card-bg-color);
 }
+
+

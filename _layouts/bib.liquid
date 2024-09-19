@@ -191,13 +191,13 @@
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.award %}
-        <a class="award btn btn-sm z-depth-0" role="button" style="background-color: #ffc8ee; border: 1px solid #ffc8ee;">
+        <a class="award btn btn-sm z-depth-0" role="button" style="font-weight: 500;">
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
         </a>
       {% endif %}
-      {% if entry.oral %}
-        <a class="oral btn btn-sm z-depth-0" role="button" style="background-color: #ffc8ee; border: 1px solid #ffc8ee;">
-          {{- entry.oral -}}
+      {% if entry.spot %}
+        <a class="spot btn btn-sm z-depth-0" role="button" style="font-weight: 500;">
+          {{- entry.spot -}}
         </a>
       {% endif %}
       {% if entry.abstract %}
@@ -349,6 +349,13 @@
       <!-- Hidden Award block -->
       <div class="award hidden d-print-inline">
         <p>{{ entry.award | markdownify }}</p>
+      </div>
+    {% endif %}
+
+    {% if entry.spot %}
+      <!-- Hidden spot block -->
+      <div class="spot hidden d-print-inline">
+        <p>{{ entry.spot_detail | markdownify }}</p>
       </div>
     {% endif %}
 
