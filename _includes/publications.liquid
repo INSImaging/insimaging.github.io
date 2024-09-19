@@ -4,24 +4,21 @@
     /* Basic styling for tab buttons */
     .tab {
         cursor: pointer;
-        /* padding: 10px 20px; */
-        /* margin-right: 5px; */
         display: inline-block;
 
-        margin: 0px;
-        padding: 5px;
+        margin: 0px -2px 0px 0px;
+        padding: 5px 7px 4px 7px; /* top right bottom left */
         cursor: pointer;
 
         display:inline-block;
         /* padding:.15em .3em; */
-        font-size: 1.0rem;
+        font-size: 0.9rem;
         font-weight: 400;
         line-height: 1;
 
         vertical-align:baseline;
         /* border-radius:.1rem; */
-
-        margin-bottom: 0rem;
+        border-radius: 5px 5px 0 0; /* Top-left and bottom-left corners rounded */
 
         border: 1px solid var(--global-tab-bg-color);
         background-color: var(--global-bg-color);  // _themes.scss
@@ -38,9 +35,9 @@
     /* Tab content styling */
     .tab-content {
         display: none;
-        padding-left: 15px;
+        padding-left: 12px;
         padding-right: 0px;
-        padding-bottom: 30px;
+        padding-bottom: 32px;
         /* margin-top: 111px; */
         border: 2px solid var(--global-tab-bg-color); 
         border-left: none;
@@ -62,30 +59,36 @@
 <body>
 
     <!-- Tab buttons -->
-    <div style="padding-top:1rem;">
-        <span class="tab active" onclick="openTab('tab1')">All</span>
-        <span class="tab" onclick="openTab('tab2')">Optimization</span>
-        <span class="tab" onclick="openTab('tab3')">Image processing</span>
-        <span class="tab" onclick="openTab('tab4')">Machine learning</span>
+    <div style="padding-top:2px;">
+      <span class="tab active" onclick="openTab('tab_all')">All</span>
+      <span class="tab" onclick="openTab('tab_selected')">Selected papers</span>
+      <span class="tab" onclick="openTab('tab_opt')">Optimization</span>
+      <span class="tab" onclick="openTab('tab_imaging')">Image processing</span>
+      <span class="tab" onclick="openTab('tab_learning')">Machine learning</span>
     </div>
 
     <!-- Tab contents -->    
-    <div id="tab1" class="tab-content active">
+    <div id="tab_all" class="tab-content active">
       <div class="publications" style="padding-top:rem;margin-top:0rem;">
         {% bibliography %}
       </div>
     </div>
-    <div id="tab2" class="tab-content">
+    <div id="tab_selected" class="tab-content">
       <div class="publications">
-        {% bibliography -q @*[cate_primary=optimization] %}
+        {% bibliography -q @*[selected=true] %}
       </div>
     </div>
-    <div id="tab3" class="tab-content">
+    <div id="tab_opt" class="tab-content">
       <div class="publications">
-        {% bibliography -q @*[cate_primary=imaging] %}
+        {% bibliography -q @*[cate_primary=optimization || cate_secondary=optimization] %}
       </div>
     </div>
-    <div id="tab4" class="tab-content">
+    <div id="tab_imaging" class="tab-content">
+      <div class="publications">
+        {% bibliography -q @*[cate_primary=imaging || cate_secondary=imaging] %}
+      </div>
+    </div>
+    <div id="tab_learning" class="tab-content">
       <div class="publications">
         {% bibliography -q @*[cate_primary=learning || cate_secondary=learning] %}
       </div>

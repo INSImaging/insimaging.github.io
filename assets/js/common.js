@@ -4,16 +4,25 @@ $(document).ready(function () {
     $(this).parent().parent().find(".abstract.hidden").toggleClass("open");
     $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
     $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".highlights.hidden.open").toggleClass("open");
   });
   $("a.award").click(function () {
     $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
     $(this).parent().parent().find(".award.hidden").toggleClass("open");
     $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".highlights.hidden.open").toggleClass("open");
   });
   $("a.bibtex").click(function () {
     $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
     $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
     $(this).parent().parent().find(".bibtex.hidden").toggleClass("open");
+    $(this).parent().parent().find(".highlights.hidden.open").toggleClass("open");
+  });
+  $("a.highlights").click(function () {
+    $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".highlights.hidden").toggleClass("open");
   });
   $("a").removeClass("waves-effect waves-light");
 
