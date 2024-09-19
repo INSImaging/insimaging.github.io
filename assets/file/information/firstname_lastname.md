@@ -1,5 +1,5 @@
 ---
-layout: cvpage # no need to modify
+layout: page-cv # no need to modify
 title: Firstname Lastname
 # description: # you can leave it empty
 img: profile.jpg # change "profile" to the name of your picture

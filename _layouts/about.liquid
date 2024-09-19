@@ -16,21 +16,29 @@ layout: default
 
   <article>
     {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+
+      <div class="profile float-center" style="width:80%;">
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
+          {% comment %} ---------------------------------------- {% endcomment %}
+          {% comment %} {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 50 | times: 0.2}}px, (min-width: 576px)
+          20vw, 80vw"{% endcapture %}  {% endcomment %}
+
           {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            include figure.liquid loading="lazy" path=profile_image_path class=profile_image_class alt=page.profile.image width="10rem" 
             cache_bust=true
+            align="left"
           %}
+
+          {% comment %} {%
+            include figure.liquid loading="lazy" path=profile_image_path class=profile_image_class max-width="10rem" alt=page.profile.image
+            cache_bust=true
+          %} {% endcomment %}
         {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
@@ -46,10 +54,23 @@ layout: default
         <h4>
           <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
         </h4>
-        {% include news.liquid limit=true %}
+        {% include new_news.liquid limit=true %}
       {% endif %}
 
-      <!-- Latest posts -->
+    {% comment %} <!-- Event organized -->
+    <h4>
+        <a href="/activities/" style="color: inherit">News and activities</a>
+    </h4>
+    <h5 class="services" style="margin-left:1rem;">News</h5>
+    {% include new_news.liquid limit=3 %}
+    {% comment %} asdf {% endcomment %}
+    <h5 class="services" style="margin-left:1rem;">Recent talks</h5>
+    {% include activity_talks.liquid  file="talks" limit=2 %}
+    <h5 class="services" style="margin-left:1rem;">Recent events</h5>
+    {% include activity_events.liquid file="events" limit=2 %} {% endcomment %}
+
+
+    <!-- Latest posts -->
       {% if site.latest_posts.enabled %}
         <h4>
           <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest posts</a>

@@ -1,0 +1,34 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Email Address
+      value: zqqin58 at sjtu dot edu dot cn # do not use the full email address to avoid spam
+    - name: Address
+      value: Room 348, No.6 Sicence Building
+    - name: Research Interests
+      value: Non-smooth optimization, image processing, machine learning
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Phd in Mathematics
+      institution: Institute of Natural Science and School of Mathematical Sciences, Shanghai Jiao Tong University
+      year: 2021.09 - present
+    - title: Bachelor in Mathematics & Chemical Biology
+      institution: School of Mathematical Sciences and College of Chemisty, Nankai University
+      year: 2017.09 - 2021.06
+
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: talk at the 25th International Symposium on Mathematical Programming
+      year: 2024
+      description: presented "Activity Identification in Non-smooth Optimization - A Set-Valued Operator Perspective"
+
+
+- title: Other Interests
+  type: list
+  contents:
+    - <b>Hobbies:</b> table tennis, swimming, etc.
+

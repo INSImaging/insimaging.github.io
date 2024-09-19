@@ -1,0 +1,35 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Email Address
+      value: yifanbai at sjtu dot edu dot cn # do not use the full email address to avoid spam
+    - name: Address
+      value: Room 402, No.6 Sicence Building
+    - name: Research Interests
+      value: Non-smooth optimization, image processing, machine learning, mathematical formalization
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Bachelor in Mathematics and Applied Mathematics
+      institution: School of Mathematics, Sun Yat-Sen University
+      year: 2019.09 - 2023.06
+      description:
+        - Mathematics and Applied Mathematics
+        - Honors Graduate
+
+- title: Research Experience & Internships
+  type: time_table
+  contents:
+    - title: Mathematical Formalization
+      year: 2024.07 - now
+      description: Formalization of convergence analysis of algorithms in optimization using Lean4
+
+    - title: Algorithm Engineer (Internship) at HUAWEI
+      year: 2022.10 - 2023.06
+      description: Computational Mathematics Team / Developed algorithms in GNSS & signal processing
+
+- title: Other Interests
+  type: list
+  contents:
+    - <b>Hobbies:</b> Singing, Travelling, etc.

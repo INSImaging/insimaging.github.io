@@ -3,11 +3,15 @@
  ******************************************************************************/
 
 :root {
+  --global-tab-bg-color: rgb(201, 201, 201);
+  --global-tab-fg-color: rgb(0, 0, 0);
+  --global-tab-active-color: rgb(206, 206, 206);
   --global-bg-color: #{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
   --global-theme-color: #{$purple-color};
+  --global-badge-color: rgb(86, 86, 86); // for item-badge
   --global-hover-color: #{$purple-color};
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-dark};
@@ -68,11 +72,15 @@
 }
 
 html[data-theme="dark"] {
+  --global-tab-bg-color: rgb(105, 105, 105);
+  --global-tab-fg-color: rgb(224, 224, 224);
+  --global-tab-active-color: #{$cyan-color};
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color};
   --global-theme-color: #{$cyan-color};
+  --global-badge-color: rgb(179, 179, 179); // for item-badge
   --global-hover-color: #{$cyan-color};
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-light};

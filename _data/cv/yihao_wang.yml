@@ -1,0 +1,86 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Email Address
+      value: haze0023 at sjtu dot edu dot cn # do not use the full email address to avoid spam
+    - name: Address
+      value: Room 502, No.6 Sicence Building
+    - name: Research Interests
+      value: Non-smooth optimization, image processing, machine learning
+
+# - title: Experience # this is for working experience
+#   type: time_table
+#   contents:
+#     # - title: title of position
+#     #   institution: Institute of Natural Sciences, Shanghai Jiao Tong University
+#     #   year: xxxx.xx - Now
+#     #   description:
+#     #     - Description 1.
+#     #     - Description 2.
+#     #     - title: Description 3.
+#     #       contents:
+#     #         - Sub-description 1.
+#     #         - Sub-description 2.
+#     # - title: title of position
+#     #   institution: name of school, name of university
+#     #   year: xxxx.xx - xxxx.xx
+#     #   description:
+#     #     - Description 1.
+#     #     - Description 2.
+
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Master in Subject
+      institution: INS, Shanghai Jiao Tong university
+      year: 2020.9 - 2026.6
+      # description:
+      #   - Description 1.
+      #   - Description 2.
+      #   - title: Description 3.
+      #     contents:
+      #       - Sub-description 1.
+      #       - Sub-description 2.
+    - title: Bachelor in Subject
+      institution: Mathematical Science, Tongji university
+      year: 2016.9 - 2020.6
+      # description:
+      #   - Description 1.
+      #   - Description 2.
+
+- title: Research Experience & Internships
+  type: time_table
+  contents:
+    - title: Internships in Sensetime Health care
+      year: 2023 - 2024
+      description: synthesizing CTP from CTA
+
+# - title: Selected Publications
+#   type: publications
+#   contents:
+#     # - year: 2024.01
+#     #   name: title of the paper
+#     #   publisher: name of the journal
+#     #   authors: Author 1, Author 2, etc.
+#     #   url: link to the paper
+#     # - year: 2024.01
+#     #   name: title of the paper 2
+#     #   publisher: name of the journal
+#     #   authors: Author 1, Author 2, etc.
+#     #   url: link to the paper
+
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     # - year: 2024
+#     #   items:
+#     #     - name of the honor or awards
+#     # - year: 2023
+#     #   items:
+#     #     - name of the honor or awards
+
+- title: Other Interests
+  type: list
+  contents:
+    - <b>Hobbies:</b> tennis, napping, etc.

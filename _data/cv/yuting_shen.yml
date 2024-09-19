@@ -1,0 +1,43 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Email Address
+      value: yutingshen98 at sjtu dot edu dot cn # do not use the full email address to avoid spam
+    - name: Address
+      value: Room 603, No.6 Sicence Building
+    - name: Research Interests
+      value: Non-smooth optimization, image processing, machine learning
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Master in Mathematics
+      institution: School of Mathematical Sciences, Shanghai Jiaotong University
+      year: 2020.09 - 2022.07
+      description:
+        - Image processing based on PDE
+        - Spatially weighted total variation based chromatic aberration correction with semi-proximal alternating minimization(submitted)
+    - title: Bachelor in Mathematics
+      institution: School of Mathematical Sciences, Shanghai University
+      year: 2016.09 - 2020.07
+      description:
+        - Algebra, Quaternion
+
+- title: Selected Publications
+  type: publications
+  contents:
+    - year: 2019.04
+      name: Determinant of a rectangle matrix over the quaternion algebra
+      publisher: Journal of Shanghai University (Natural Science)
+      authors: Pingping Song, Yuxin Jiang, Yuting Shen.
+      url: link to the paper
+    - year: 2018.05
+      name: A quaternion matrix equation involving φ-Hermicity
+      publisher: JP Journal of Algebra, Number Theory & Applications
+      authors: Deng Ye, Yuting Shen.
+      url: https://www.researchgate.net/publication/327384077_A_QUATERNION_MATRIX_EQUATION_INVOLVING_PH-HERMICITY
+
+- title: Other Interests
+  type: list
+  contents:
+    - <b>Hobbies:</b> playing badminton, singing, etc.

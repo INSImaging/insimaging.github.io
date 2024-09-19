@@ -48,9 +48,29 @@ h3.section-title {
   text-align: left;
 }
 
+h3.talk-year {
+  color: var(--global-divider-color);
+  border-top: 1px solid var(--global-divider-color);
+  padding-top: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  text-align: right;
+}
+
 h4.card-title{
   color: var(--global-text-color);
   border-bottom: 1px solid var(--global-divider-color);
+  // padding-top: 0.5rem;
+  // // margin-top: 1rem;
+  // margin-bottom: 1rem;
+  // text-align: left;
+}
+
+h5.services {
+  color: var(--global-text-color);
+  font-size: 1.15rem;
+  font-weight: 400;
+  border-bottom: 1px dashed var(--global-divider-color);
   // padding-top: 0.5rem;
   // // margin-top: 1rem;
   // margin-bottom: 1rem;
@@ -216,6 +236,7 @@ ul.task-list input[type="checkbox"] {
 
 .profile {
   width: 100%;
+  // max-width: 12rem;
 
   .more-info {
     margin-bottom: 5px;
@@ -230,11 +251,16 @@ ul.task-list input[type="checkbox"] {
 }
 
 .profile.float-right {
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .profile.float-left {
-  margin-right: 1rem;
+  margin-right: 2rem;
+}
+
+.profile.float-center {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (min-width: 576px) {
@@ -431,7 +457,7 @@ ul.task-list input[type="checkbox"] {
   text-align: left;
 
   .contact-icons {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
 
     a {
       i::before {
@@ -512,6 +538,54 @@ footer.sticky-bottom {
 
   .container {
     text-align: center;
+  }
+}
+
+// Events
+
+.list-group-item {
+  width: 96%;
+  margin-left: 2%;
+  background-color: inherit;
+  border-color: var(--global-divider-color);
+
+  .badge {
+    color: var(--global-card-bg-color) !important;
+    background-color: var(--global-theme-color) !important;
+  }
+}
+
+// activity
+
+.activity {
+  h4 {
+    color: var(--global-text-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-top: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  } 
+}
+
+// for activity-talks liquid
+.slides-button {
+  border-color: var(--global-divider-color);
+
+  .textbox {
+    font-size: 0.8rem;
+    color: var(--global-text-color);
+    width: 110px;
+    height: 30px;
+    padding: 1px 5px 1px 5px;
+    border: 1px solid black;
+    border-color: #666666;
+    margin: 0;
+}
+
+  .slidesbadge {
+    color: var(--global-card-bg-color) !important;
+    background-color: red;
   }
 }
 
@@ -708,7 +782,7 @@ footer.sticky-bottom {
     margin-top: 2rem;
     margin-bottom: 1rem;
     text-align: right;
-  }
+  }  
 }
 
 
@@ -778,8 +852,9 @@ footer.sticky-bottom {
 
 	
 
-//	.info-name {
-//	}
+	.info-name {
+    font-size: 1.1rem;
+	}
 
 	.info-about {
 	  font-size: 1.0rem;
@@ -840,7 +915,14 @@ footer.sticky-bottom {
     text-align: left;
   }
   
- 
+  h4.category {
+    color: var(--global-text-color); //var(--global-divider-color);
+    border-bottom: 1.25px solid var(--global-divider-color);
+    padding-top: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
 
 }
 
@@ -878,6 +960,15 @@ footer.sticky-bottom {
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+
+  h4.category {
+    color: var(--global-text-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-top: 0.5rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
     text-align: left;
   }
@@ -1547,4 +1638,327 @@ ninja-keys::part(ninja-input-wrapper) {
 ::highlight(search) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
+}
+
+
+// for events and talks button
+
+.button-more {
+  font-size: 0.9rem;
+  font-weight: 500;
+
+  margin-top: 2rem; 
+  margin-left: 1px;
+
+  color: var(--global-card-bg-color);
+  border-color: var(--global-theme-color);
+  background-color: var(--global-theme-color);
+}
+
+.toggle-button {
+  position: relative;
+  padding-left: 20px; /* Add padding to make room for the triangle */
+}
+
+.toggle-button::before {
+  content: "";
+  position: absolute;
+  left: 5px; /* Position the triangle */
+  top: 50%;
+  transform: translateY(-50%);
+  border-width: 5px 5px 0;
+  border-style: solid;
+  border-color: var(--global-card-bg-color) transparent transparent transparent; /* Black triangle */
+}
+
+
+
+.list-group-item {
+  width: 96%;
+  margin-left: 2%;
+  background-color: inherit;
+  border-color: var(--global-divider-color);
+
+  .badge {
+    margin-top: -.5rem;
+    padding: .15em .2em;
+    font-size: 70%;
+    border-radius:.1rem;
+    text-align: center;
+
+    margin-right: -0.5rem;
+
+    min-width: 65px;
+
+    color: var(--global-card-bg-color) !important;
+    background-color: var(--global-theme-color) !important;
+  }
+
+  .item-detail {
+    margin-left: 1rem;
+  }
+  
+}
+
+.item-badge{
+  display:inline-block;
+  // padding:.15em .3em;
+  font-size: 0.95rem;
+  font-weight: 300;
+  line-height: 1;
+
+  // margin-top: 1px;
+  margin-right: 0rem;
+
+  // text-align:center;
+  // white-space:nowrap;
+  vertical-align:baseline;
+  // border-radius:.1rem;
+  
+  // background-color: var(--global-badge-color);  // _themes.scss
+  // color: var(--global-card-bg-color);
+}
+
+
+.news-badge{
+  display:inline-block;
+  // padding:.15em .3em;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  text-align: left;
+
+  // margin-top: -1.5rem;
+  margin-right: 0rem;
+
+  // text-align:center;
+  white-space:nowrap;
+  // vertical-align:baseline;
+  border-radius:.1rem;
+  
+  // background-color: var(--global-badge-color);  // _themes.scss
+  // color: var(--global-card-bg-color);
+}
+
+// use table to display the list of events
+
+body {
+  max-width: 100%; /* Ensures the body is always 100% of the viewport width */
+  margin: 0;
+  padding: 0;
+  padding-bottom: 100px;
+}
+
+table {
+  width: 100%; /* Table spans the full width of its container */
+  max-width: 100%; /* Ensures the table doesn't exceed the container's width */
+}
+
+.percentage-width {
+  width: 17%; /* Each column takes 50% of the table's width */
+  /* max-width: 18%;  */
+  text-align: right;
+  vertical-align: top;
+  // padding-right: 10px;
+  // font-size: 0.75rem;
+}
+
+.percentage-width-news {
+  width: 15%; /* Each column takes 50% of the table's width */
+  /* max-width: 18%;  */
+  text-align: left;
+  vertical-align: top;
+  // padding-right: 10px;
+  // font-size: 0.75rem;
+}
+
+.percentage-width-shortbio {
+  width: 15%; /* Each column takes 50% of the table's width */
+  /* max-width: 18%;  */
+  text-align: right;
+  vertical-align: top;
+  // padding-right: 10px;
+  // font-size: 0.75rem;
+}
+
+.table-shortbio {
+  width: 98%; /* Table container takes the full width of the page */
+  max-width: 99%; /* Ensures it doesn't exceed the maximum width of the page */
+
+  border-collapse: separate; /* Ensures borders are collapsed */
+  border-spacing: 0; /* Adjust vertical spacing */
+
+  margin-left: auto; /* Center the table horizontally */
+  margin-right: auto; /* Center the table horizontally */
+
+  th, td {
+    border: none; /* Remove all borders */
+    padding: 4px 10px; /* Add padding for consistency */
+
+    font-size: 1rem;
+  }
+ 
+  tr {
+    border-bottom: 1px dashed var(--global-divider-color); /* Add horizontal borders between rows */
+  } 
+
+  thead tr {
+    border-bottom: 2px solid #ed2020; /* Optional: Different border for header row */
+  }
+
+  tbody tr:last-child {
+    border-bottom: none; /* Remove the bottom border of the last row */
+  }
+}
+
+
+.table-list {
+  width: 98%; /* Table container takes the full width of the page */
+  max-width: 99%; /* Ensures it doesn't exceed the maximum width of the page */
+
+  border-collapse: separate; /* Ensures borders are collapsed */
+  border-spacing: 0; /* Adjust vertical spacing */
+
+  margin-left: auto; /* Center the table horizontally */
+  margin-right: auto; /* Center the table horizontally */
+
+  th, td {
+    border: none; /* Remove all borders */
+    padding: 6px 10px; /* Add padding for consistency */
+    // font-size: 1rem;
+  }
+ 
+  tr {
+    border-bottom: 1px dashed var(--global-divider-color); /* Add horizontal borders between rows */
+  } 
+
+  thead tr {
+    border-bottom: 2px solid #ed2020; /* Optional: Different border for header row */
+  }
+
+  tbody tr:last-child {
+    border-bottom: none; /* Remove the bottom border of the last row */
+  }
+}
+
+.table-services {
+  width: 98%; /* Table container takes the full width of the page */
+  max-width: 99%; /* Ensures it doesn't exceed the maximum width of the page */
+
+  border-collapse: separate; /* Ensures borders are collapsed */
+  border-spacing: 0; /* Adjust vertical spacing */
+
+  margin-left: auto; /* Center the table horizontally */
+  margin-right: auto; /* Center the table horizontally */
+
+  th, td {
+    border: none; /* Remove all borders */
+    padding: 6px 10px; /* Add padding for consistency */
+    font-size: 1rem;
+  }
+ 
+  tr {
+    border-bottom: 1px dashed var(--global-divider-color); /* Add horizontal borders between rows */
+  } 
+
+  thead tr {
+    border-bottom: 2px solid #ed2020; /* Optional: Different border for header row */
+  }
+
+  tbody tr:last-child {
+    border-bottom: none; /* Remove the bottom border of the last row */
+  }
+}
+
+
+// for news md files
+
+// .table-in-news {
+//   width: auto; /* Allow the table width to be determined by content */
+//   table-layout: auto; /* Default setting that allows rows to adjust */
+//   margin: 0 auto; /* Center the table if necessary */
+// }
+
+// .table-in-news th, .table-in-news td {
+//   padding: 10px;
+//   white-space: nowrap; /* Prevent text from wrapping if you prefer */
+// }
+
+
+.table-list-innews {
+  width: 100%; /* Table container takes the full width of the page */
+  // max-width: 100%; /* Ensures it doesn't exceed the maximum width of the page */
+
+  border-collapse: separate; /* Ensures borders are collapsed */
+  border-spacing: 0; /* Adjust vertical spacing */
+
+  margin-left: auto; /* Center the table horizontally */
+  margin-right: auto; /* Center the table horizontally */
+
+  th, td {
+    width: auto; 
+
+    border: none; /* Remove all borders */
+    // padding: 6px 2px; /* Add padding for consistency */
+    padding-left: 2px;
+    margin-right: 8px;
+    // font-size: 1rem;
+  }
+ 
+  tr {
+    border-bottom: 1px dashed var(--global-divider-color); /* Add horizontal borders between rows */
+  } 
+
+  thead tr {
+    border-bottom: 2px solid #ed2020; /* Optional: Different border for header row */
+  }
+
+  tbody tr:last-child {
+    border-bottom: none; /* Remove the bottom border of the last row */
+  }
+}
+
+// for news md files
+.percentage-width-innews {
+  // width: 15%; /* Each column takes 50% of the table's width */
+  /* max-width: 18%;  */
+  // text-align: left;
+  vertical-align: top;
+  // margin-left: 1rem;
+  // padding-left: 1rem;
+  // padding-right: 10px;
+  // font-size: 0.75rem;
+  // background-color: red;
+}
+
+.second-row-info {
+  // width: 20%; /* Each column takes 50% of the table's width */
+  /* max-width: 18%;  */
+  // text-align: left;
+  // vertical-align: top;
+  // margin-left: 1rem;
+  // padding-left: 1rem;
+  // padding-right: 10px;
+  // font-size: 0.75rem;
+  // background-color: red;
+}
+
+.item-badge-innews{
+  display:inline-block;
+  // padding:.15em .3em;
+  font-size: 0.95rem;
+  font-weight: 300;
+  // line-height: 1;
+
+  margin-top: 0rem;
+  margin-left: 0rem;
+  padding-left: 0rem;
+
+  text-align: right;
+  white-space:nowrap;
+  // vertical-align:baseline;
+  border-radius:.1rem;
+  
+  // background-color: var(--global-badge-color);  // _themes.scss
+  // color: var(--global-card-bg-color);
 }

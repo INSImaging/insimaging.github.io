@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /people/
-title: People
+title: Group
 description: Members of the group.
 nav: true
-nav_order: 1
+nav_order: 2
 display_categories: [Faculty, Post-doc, PhD student, Master student, Undergraduate, Alumni]
 ---
 
@@ -16,7 +16,7 @@ display_categories: [Faculty, Post-doc, PhD student, Master student, Undergradua
   {% for category in page.display_categories %}  
 
   <a id="{{ category }}" href=".#{{ category }}">
-    <h3 class="category">{{ category }}</h3>
+    <h4 class="category">{{ category }}</h4>
   </a>
 
   {% assign categorized_people = site.people | where: "category", category %}

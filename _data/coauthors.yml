@@ -22,9 +22,9 @@
   - firstname: ["Yu Guang", "Yuguang"]
     url: https://yuguangwang.github.io/
 
-# "tang":
-#   - firstname: ["Junqi", "J."]
-#     url: https://junqitang.com/
+"tang":
+  - firstname: ["Junqi", "J."]
+    url: https://junqitang.com/
 
 "poon":
     - firstname: ["Clarice"]
@@ -37,3 +37,109 @@
 "fadili":
     - firstname: ["Jalal"]      
       url: https://fadili.users.greyc.fr/
+
+"davies":
+    - firstname: ["Mike"]      
+      url: https://www.eng.ed.ac.uk/about/people/professor-michael-e-davies
+
+
+"ehrhardt":
+    - firstname: ["Matthias J.", "Matthias"]      
+      url: https://mehrhardt.github.io/
+
+"kereta":
+    - firstname: ["Zeljko"]      
+      url: http://www0.cs.ucl.ac.uk/people/Z.Kereta.html
+
+"aviles-rivero":
+    - firstname: ["Angelica I.", "Angelica"]      
+      url: https://angelicaiaviles.wordpress.com/
+
+"lewis":
+    - firstname: ["Adrian S."]      
+      url: https://people.orie.cornell.edu/aslewis/
+
+"driggs":
+    - firstname: ["Derek"]      
+      url: https://derekdriggs.github.io/
+
+"dutta":
+    - firstname: ["Aritra"]      
+      url: https://sciences.ucf.edu/math/person/aritra-dutta/
+
+"li":
+    - firstname: ["Xin"]      
+      url: https://sciences.ucf.edu/math/xli/
+
+"richtarik":
+    - firstname: ["Peter"]      
+      url: https://richtarik.org/
+
+"molinari":
+    - firstname: ["Cesare"]      
+      url: https://ceciomolinari.wixsite.com/my-site-3
+
+"luke":
+    - firstname: ["Russell"]      
+      url: https://num.math.uni-goettingen.de/~r.luke/
+
+"ma":
+    - firstname: ["Jianwei"]      
+      url: https://homepage.hit.edu.cn/jma
+
+
+"shen":
+    - firstname: ["Zuowei"]      
+      url: https://blog.nus.edu.sg/matzuows/
+
+
+"li":
+    - firstname: ["Jia"]      
+      url: https://math.sysu.edu.cn/teacher/550
+
+
+"zhu":
+    - firstname: ["Yanan", "Ya-Nan"]      
+      url: https://www.kumc.edu/yzhu4.html
+
+
+"jiang":
+    - firstname: ["Ming"]      
+      url: https://web.xidian.edu.cn/mingjiang/
+
+
+# "":
+#     - firstname: [""]      
+#       url: 
+
+# "":
+#     - firstname: [""]      
+#       url: 
+
+# "":
+#     - firstname: [""]      
+#       url: 
+
+# "":
+#     - firstname: [""]      
+#       url: 
+
+# "":
+#     - firstname: [""]      
+#       url: 
+
+# "":
+#     - firstname: [""]      
+#       url: 
+
+# "":
+#     - firstname: [""]      
+#       url: 
+
+# "":
+#     - firstname: [""]      
+#       url: 
+
+# "":
+#     - firstname: [""]      
+#       url: 

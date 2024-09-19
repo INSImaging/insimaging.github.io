@@ -1,0 +1,30 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Email Address
+      value: cjq63127230 at sjtu dot edu dot cn # do not use the full email address to avoid spam
+    - name: Address
+      value: None
+    - name: Research Interests
+      value: Stochastic Optimization
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Bachelor in Information and Computing Science
+      institution: School of Mathematics, Xiamen University
+      year: 2019.09 - 2023.06
+      description:
+        - Elite Students Training Programme in Mathematics, Xiamen University.
+
+- title: Research Experience & Internships
+  type: time_table
+  contents:
+    - title: Commodity Futures and Cryptocurrency Quantitative Strategy Development
+      year: 2024.05 - Now
+      description: Trend Following, Multi-Factor Model, Machine Learning, Portfolio Optimization
+
+- title: Other Interests
+  type: list
+  contents:
+    - <b>Hobbies:</b> Trading, Running 2, etc.
