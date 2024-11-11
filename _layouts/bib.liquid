@@ -195,9 +195,9 @@
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
         </a>
       {% endif %}
-      {% if entry.spot %}
-        <a class="spot btn btn-sm z-depth-0" role="button" style="font-weight: 500;">
-          {{- entry.spot -}}
+      {% if entry.highlights %}
+        <a class="highlights btn btn-sm z-depth-0" role="button" style="font-weight: 500;">
+          {{- entry.highlights -}}
         </a>
       {% endif %}
       {% if entry.abstract %}
@@ -352,10 +352,10 @@
       </div>
     {% endif %}
 
-    {% if entry.spot %}
-      <!-- Hidden spot block -->
-      <div class="spot hidden d-print-inline">
-        <p>{{ entry.spot_detail | markdownify }}</p>
+    {% if entry.highlights_detail %}
+      <!-- Hidden highligh block -->
+      <div class="highlights hidden d-print-inline">
+        <p>{{ entry.highlights_detail | markdownify }}</p>
       </div>
     {% endif %}
 
