@@ -1,0 +1,41 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Email Address
+      value: yry_fang at sjtu dot edu dot cn # do not use the full email address to avoid spam
+    - name: Research Interests
+      value: Non-smooth optimization, stochastic optimization, image processing
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Master in Mathematics
+      institution: Institute of Natural Science and School of Mathematical Sciences, Shanghai Jiao Tong University
+      year: 2022.09 - now
+
+    - title: Bachelor in Information and Computing Science
+      institution: School of Mathematics, Hunan university
+      year: 2018.09 - 2022.06
+
+- title: Research Experience & Internships
+  type: time_table
+  contents:
+    - title: TikTok information Service Co., Ltd
+      year: 2024.04 - now
+      description: Bussiness Analysis
+
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2023
+      items:
+        - First-Class Scholarship
+    - year: 2023
+      items:
+        - Weichai Power Scholarship
+
+- title: Other Interests
+  type: list
+  contents:
+    - <b>Hobbies:</b> Eason Chan.

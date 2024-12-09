@@ -1,0 +1,58 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Email Address
+      value: zhaoyuzhong at sjtu dot edu dot cn # do not use the full email address to avoid spam
+    - name: Address
+      value: Room 370, No.6 Sicence Building
+    - name: Research Interests
+      value: Anomaly Detection, OOD Detection, Medical Image Analysis.
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Computational Mathematics
+      institution: Institute of Natural Sciences and School of Mathematical Sciences, Shanghai Jiao Tong University
+      year: 2023.09 - Now
+    - title: Master in Computational Mathematics
+      institution: Institute of Natural Sciences and School of Mathematical Sciences, Shanghai Jiao Tong University
+      year: 2020.09 - 2023.03
+    - title: Bachelor in Mathematics and Applied Mathematics
+      institution: School of Mathematics, Sichuan University
+      year: 2015.09 - 2020.06
+
+- title: Research Experience & Internships
+  type: time_table
+  contents:
+    - title: Research Intern at Shanghai-Chongqing Institute of Artificial Intelligence
+      year: 2023.06 - 2023.08
+      description: Contributed to the development of the ZhaoYan large language model.
+
+- title: Selected Publications
+  type: publications
+  contents:
+    - year: 2023.01
+      name: "AE-FLOW: Autoencoders with Normalizing Flows for Medical Images Anomaly Detection"
+      publisher: The Eleventh International Conference on Learning Representations
+      authors: Yuzhong Zhao, Qiaoqiao Ding, Xiaoqun Zhang
+      url: https://openreview.net/pdf?id=9OmCr1q54Z
+    - year: 2023.10
+      name: "PET-3DFlow: A Normalizing Flow Based Method for 3D PET Anomaly Detection"
+      publisher: International Workshop on Computational Mathematics Modeling in Cancer Analysis
+      authors: Zhe Xiong, Qiaoqiao Ding, Yuzhong Zhao, Xiaoqun Zhang
+      url: https://link.springer.com/chapter/10.1007/978-3-031-45087-7_10
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    # - year: 2024
+    #   items:
+    #     - name of the honor or awards
+    - year: 2023
+      items:
+        - Representative Algorithm of Chinese Medical Artificial Intelligence
+
+- title: Other Interests
+  type: list
+  contents:
+    - <b>Hobbies:</b> Hiking, Tennis, Photography.
