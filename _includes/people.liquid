@@ -10,7 +10,7 @@
                 {% comment %} <p class="info-about">{{ people.description }}</p> {% endcomment %}
                 <div class="social_badge">
                   <div class="contact-icons">
-                    {% if people.webpage %}
+                    {% if people.webpage and people.category != "Alumni" %}
                       <a href="{% if people.redirect %}{{ people.redirect }}{% else %}{{ people.url | relative_url }}{% endif %}" title="Personal Page"><i class="fa-solid fa-house-user" style="padding-right:0.75rem; padding-left:0.5rem"></i></a>
                     {% endif %}
                     {% if people.scholar %}

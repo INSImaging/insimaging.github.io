@@ -1,6 +1,6 @@
 ---
 layout: cvpage # no need to modify
-title: Firstname Lastname
+title: Xiang Cao
 # description: # you can leave it empty
 img: xiang_cao.JPG # change "profile" to the name of your picture
 cv: Xiang_Cao # name of the yml file

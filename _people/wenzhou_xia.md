@@ -11,7 +11,7 @@ category: PhD student # choose from [Faculty, Post-doc, PhD student, Master stud
 # redirect: link # if you have personal webpage, uncomment this line and replace "link" with the url of your personal webpage
 webpage: true # no need to modify, but if line 11 is uncommented, change "true" to "false"
 scholar: # link to your google scholar page, leave it as it is now if you don't have one
-https://github.com/WenzhouXia: # link to your github page, leave it as it is now if you don't have one
+github: https://github.com/WenzhouXia
 ---
 
 Welcome to my webpage!
