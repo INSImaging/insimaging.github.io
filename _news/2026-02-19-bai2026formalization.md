@@ -10,4 +10,4 @@ related_posts: false
 
 <br>
 
-A new preprint presents a formalization of two fixed-point algorithms in Hilbert spaces. Check the paper [here](https://arxiv.org/abs/2602.17064).
+A new [preprint](https://arxiv.org/abs/2602.17064) presents a formalization of two fixed-point algorithms in Hilbert spaces.

@@ -10,4 +10,4 @@ related_posts: false
 
 <br>
 
-Our paper on a single-mode quasi Riemannian gradient descent algorithm for low-multilinear-rank tensor recovery has been published in the **Journal of Scientific Computing**. Check the paper [here](https://link.springer.com/article/10.1007/s10915-025-03122-6).
+Our [paper](https://link.springer.com/article/10.1007/s10915-025-03122-6) on a single-mode quasi Riemannian gradient descent algorithm for low-multilinear-rank tensor recovery has been published in the **Journal of Scientific Computing**.

@@ -10,4 +10,4 @@ related_posts: false
 
 <br>
 
-Our paper on enhancing medical imaging out-of-distribution detection with synthetic outliers has been published in the **Journal of Mathematical Imaging and Vision**. Check the paper [here](https://link.springer.com/article/10.1007/s10851-025-01278-2).
+Our [paper](https://link.springer.com/article/10.1007/s10851-025-01278-2) on enhancing medical imaging out-of-distribution detection with synthetic outliers has been published in the **Journal of Mathematical Imaging and Vision**.
