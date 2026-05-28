@@ -2,7 +2,7 @@
 layout: cvpage # no need to modify
 title: Bangguo Ye
 # description: # you can leave it empty
-img: bangguo_ye.JPG # change "profile" to the name of your picture
+img: bangguo_ye_2inch.JPG # change "profile" to the name of your picture
 cv: bangguo_ye # name of the yml file
 toc:
   sidebar: right # no need to modify

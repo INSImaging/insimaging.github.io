@@ -2,7 +2,7 @@
 layout: cvpage
 title: Jingwei Liang
 # description: Associate Processor
-img: jingwei.jpeg
+img: jingwei_2inch.jpeg
 cv: jingwei_liang # name of the yml file
 toc:
   sidebar: right

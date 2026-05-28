@@ -2,7 +2,7 @@
 layout: cvpage # no need to modify
 title: Chaozhi Zhang
 # description: # you can leave it empty
-img: chaozhi_zhang.jpg # change "profile" to the name of your picture
+img: chaozhi_zhang_2inch.jpg # change "profile" to the name of your picture
 cv: chaozhi_zhang # name of the yml file
 toc:
   sidebar: right # no need to modify

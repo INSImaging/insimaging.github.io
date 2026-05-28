@@ -2,7 +2,7 @@
 layout: page-cv # no need to modify
 title: Yifan Bai
 # description: # you can leave it empty
-img: yifanbai.JPG # change "profile" to the name of your picture
+img: yifanbai_2inch.JPG # change "profile" to the name of your picture
 yaml: yifan_bai # name of the yml file
 toc:
   sidebar: right # no need to modify

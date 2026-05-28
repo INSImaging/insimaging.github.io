@@ -2,7 +2,7 @@
 layout: page
 title: Xiaoqun Zhang
 # description: Distinguished Processor
-img: xiaoqun.jpg
+img: xiaoqun_2inch.jpg
 importance: 1
 category: Faculty
 redirect: https://math.sjtu.edu.cn/faculty/xqzhang/

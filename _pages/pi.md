@@ -61,8 +61,6 @@ Institute of Natural Sciences, Shanghai Jiao Tong University<br>
 
 <h3 class="section-title">Recruiting</h3>
 
-Currently recruiting 1-2 postdocs. Please email for details.
+Currently recruiting PhD students and postdocs. Please email for details.
 
-<p style="text-align: right; font-size: 0.9rem; color: var(--global-text-color-light); margin-top: 2rem;">
-Source: <a href="https://math.sjtu.edu.cn/faculty/xqzhang/index.html" target="_blank">math.sjtu.edu.cn/faculty/xqzhang</a>
-</p>
+

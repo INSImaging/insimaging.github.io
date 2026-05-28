@@ -866,10 +866,10 @@ footer.sticky-bottom {
 	margin-bottom: 0.25rem;
 	min-width: 5rem;
 	height: 5rem;
-	border-radius: 50%;
+	border-radius: 5%;
 	max-width: 6rem;
 	max-height: 6rem;
-	object-fit: cover;
+	object-fit: contain;
 	// border: 2px rgba(200, 105, 66, 0.849) solid;
 	}
 

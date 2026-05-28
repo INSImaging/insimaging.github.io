@@ -2,7 +2,7 @@
 layout: cvpage # no need to modify
 title: Junzhe Liu
 # description: # you can leave it empty
-img: Junzhe_Liu.jpg # change "profile" to the name of your picture
+img: Junzhe_Liu_2inch.jpg # change "profile" to the name of your picture
 cv: Junzhe_Liu # name of the yml file
 toc:
   sidebar: right # no need to modify

@@ -2,7 +2,7 @@
 layout: cvpage # no need to modify
 title: Wenzhou Xia
 # description: # you can leave it empty
-img: wenzhou_xia.jpg # change "profile" to the name of your picture
+img: wenzhou_xia_2inch.jpg # change "profile" to the name of your picture
 cv: wenzhou_xia # name of the yml file
 toc:
   sidebar: right # no need to modify

@@ -2,7 +2,7 @@
 layout: page-cv # no need to modify
 title: Yuting Shen
 # description: # you can leave it empty
-img: yuting.jpg # change "profile" to the name of your picture
+img: yuting_2inch.jpg # change "profile" to the name of your picture
 yaml: yuting_shen # name of the yml file
 toc:
   sidebar: right # no need to modify

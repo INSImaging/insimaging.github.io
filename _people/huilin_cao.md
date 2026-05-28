@@ -2,7 +2,7 @@
 layout: page-cv # no need to modify
 title: Huilin Cao # Firstname Lastname
 # description: # you can leave it empty
-img: huilin_cao.jpg # change "profile" to the name of your picture
+img: huilin_cao_2inch.jpg # change "profile" to the name of your picture
 yaml: huilin_cao # name of the yml file
 toc:
   sidebar: right # no need to modify

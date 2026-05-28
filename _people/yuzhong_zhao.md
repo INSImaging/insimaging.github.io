@@ -2,7 +2,7 @@
 layout: cvpage # no need to modify
 title: Yuzhong Zhao
 # description: # you can leave it empty
-img: yuzhong_zhao.jpg # change "profile" to the name of your picture
+img: yuzhong_zhao_2inch.jpg # change "profile" to the name of your picture
 cv: yuzhong_zhao # name of the yml file
 toc:
   sidebar: right # no need to modify

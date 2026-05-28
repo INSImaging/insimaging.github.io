@@ -2,7 +2,7 @@
 layout: page-cv # no need to modify
 title: Jianing Wang
 # description: # you can leave it empty
-img: jianing.jpg # change "profile" to the name of your picture
+img: jianing_2inch.jpg # change "profile" to the name of your picture
 yaml: jianing_wang # name of the yml file
 toc:
   sidebar: right # no need to modify

@@ -2,7 +2,7 @@
 layout: page-cv # no need to modify
 title: Jianqiu Chen
 # description: # you can leave it empty
-img: Jianqiu_Chen.jpg # change "profile" to the name of your picture
+img: Jianqiu_Chen_2inch.jpg # change "profile" to the name of your picture
 yaml: Jianqiu_Chen # name of the yml file
 toc:
   sidebar: right # no need to modify

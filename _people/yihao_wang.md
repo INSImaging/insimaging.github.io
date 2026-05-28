@@ -2,7 +2,7 @@
 layout: page-cv # no need to modify
 title: Yihao Wang
 # description: # you can leave it empty
-img: yihao.jpg # change "profile" to the name of your picture
+img: yihao_2inch.jpg # change "profile" to the name of your picture
 yaml: yihao_wang # name of the yml file
 toc:
   sidebar: right # no need to modify

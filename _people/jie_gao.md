@@ -2,7 +2,7 @@
 layout: page-cv # no need to modify
 title: Jie Gao
 # description: # you can leave it empty
-img: jiegao.jpg # change "profile" to the name of your picture
+img: jiegao_2inch.jpg # change "profile" to the name of your picture
 yaml: jie_gao # name of the yml file
 toc:
   sidebar: right # no need to modify

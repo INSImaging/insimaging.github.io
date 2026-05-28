@@ -2,7 +2,7 @@
 layout: cvpage # no need to modify
 title: Xiang Cao
 # description: # you can leave it empty
-img: xiang_cao.JPG # change "profile" to the name of your picture
+img: xiang_cao_2inch.JPG # change "profile" to the name of your picture
 cv: Xiang_Cao # name of the yml file
 toc:
   sidebar: right # no need to modify

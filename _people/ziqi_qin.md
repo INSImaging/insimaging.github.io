@@ -2,7 +2,7 @@
 layout: page-cv # no need to modify
 title: Ziqi Qin
 # description: # you can leave it empty
-img: ziqi_qin.jpg # change "profile" to the name of your picture
+img: ziqi_qin_2inch.jpg # change "profile" to the name of your picture
 yaml: ziqi_qin # name of the yml file
 toc:
   sidebar: right # no need to modify

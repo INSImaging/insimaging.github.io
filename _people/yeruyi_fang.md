@@ -2,7 +2,7 @@
 layout: cvpage # no need to modify
 title: Yeruyi Fang
 # description: # you can leave it empty
-img: yeruyi_fang.jpg # change "profile" to the name of your picture
+img: yeruyi_fang_2inch.jpg # change "profile" to the name of your picture
 cv: yeruyi_fang # name of the yml file
 toc:
   sidebar: right # no need to modify
