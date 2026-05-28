@@ -34,8 +34,4 @@ social: false # includes social icons at the bottom of the page
 ---
 
 
-Welcome to the LIMO Lab webpage.
-
-LIMO stands for the **Lab for Imaging, Machine Learning and Optimization**. Our lab works on problems in mathematical imaging, medical imaging, machine learning, and optimization. This website provides a brief overview of our research, publications, and members. Thank you for visiting.
-
-<p style="padding: 1rem"></p>
+The **Lab for Imaging, Machine Learning and Optimization (LIMO)** at Shanghai Jiao Tong University is directed by Xiaoqun Zhang. It involves a diverse team with expertise in mathematics and computer science, sharing a common interest in modeling and solving inverse problems in imaging and data science. In general, the research in the lab applies mathematical modeling, optimization, and machine learning techniques to tackle imaging and data-driven problems across various applications, including medical imaging, large-scale optimization, and deep learning for inverse problems. The lab is in quest of rigorous mathematical understanding of these methods with a close collaboration with experimentalists and clinical researchers.
