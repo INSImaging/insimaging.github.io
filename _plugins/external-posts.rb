@@ -42,14 +42,18 @@ module ExternalPosts
     end
 
     def create_document(site, source_name, url, content)
-      # check if title is composed only of whitespace or foreign characters
-      if content[:title].gsub(/[^\w]/, '').strip.empty?
-        # use the source name and last url segment as fallback
-        slug = "#{source_name.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')}-#{url.split('/').last}"
-      else
-        # parse title from the post or use the source name and last url segment as fallback
-        slug = content[:title].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
-        slug = "#{source_name.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')}-#{url.split('/').last}" if slug.empty?
+      title = content[:title].to_s.strip
+      slug = Jekyll::Utils.slugify(title)
+
+      if slug.empty?
+        fallback_segment = url.to_s.split('/').reject(&:empty?).last || 'post'
+        fallback_segment = Jekyll::Utils.slugify(fallback_segment)
+        source_slug = Jekyll::Utils.slugify(source_name)
+        slug = [source_slug, fallback_segment].reject(&:empty?).join('-')
+      end
+
+      if slug.empty?
+        slug = "external-post-#{Time.now.to_i}"
       end
 
       path = site.in_source_dir("_posts/#{slug}.md")

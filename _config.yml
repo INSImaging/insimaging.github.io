@@ -2,13 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: SJTU Imaging-Optimization Group # the website title (if blank, full name will be used instead)
+title: Lab for Imaging, Machine Learning and Optimization (LIMO)  # the website title (if blank, full name will be used instead)
 first_name: 
 middle_name: 
 last_name: 
 email: # contact email
 description: >
-  Homepage of the SJTU Imaging-Optimization Group at the Institute of Natural Sciences, Shanghai Jiao Tong University.
+  Homepage of the Lab for Imaging, Machine Learning and Optimization (LIMO) at the Institute of Natural Sciences, Shanghai Jiao Tong University.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -16,7 +16,7 @@ keywords: # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://insimaging.github.io # the base hostname & protocol for your site
+url: https://limo-sjtu.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -131,8 +131,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Homepage of Imaging Group. # blog_name will be displayed in your blog page
-blog_description: SJTU Imaging-Optimization Group
+blog_name: Homepage of LIMO Lab. # blog_name will be displayed in your blog page
+blog_description: SJTU LIMO Lab
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -212,7 +212,7 @@ collections:
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 10 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false

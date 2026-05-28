@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /people/
-title: Group
-description: Members of the group.
+title: People
+description: Members of the lab.
 nav: true
 nav_order: 2
 display_categories: [Faculty, Post-doc, PhD student, Master student, Undergraduate, Alumni]
@@ -34,4 +34,3 @@ display_categories: [Faculty, Post-doc, PhD student, Master student, Undergradua
 
 
 </div>
-

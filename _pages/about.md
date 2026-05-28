@@ -6,8 +6,8 @@ subtitle: <a href='#'><b>Affiliation</b></a> Institute of Natural Sciences, Shan
 
 profile:
   align: left
-  image: group_photo.jpg
-  image_circular: false # crops the image to make it circular
+  # image: group_photo.jpg
+  # image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>firstname dot lastname AT sjtu dot edu dot cn</p>
   #   <p>Room 355, No. 6 Science Building</p>
@@ -34,8 +34,8 @@ social: false # includes social icons at the bottom of the page
 ---
 
 
-Welcome to our group webpage! 
+Welcome to the LIMO Lab webpage.
 
-Our group is dedicated to advancing the fields of mathematical imaging processing, medical imaging processing, machine learning and optimization. We strive to develop innovative solutions that address complex challenges in these areas, fostering collaboration and excellence in research. Explore our site to learn more about our projects, publications, and the talented individuals driving our work forward. We look forward to connecting with you!
+LIMO stands for the **Lab for Imaging, Machine Learning and Optimization**. Our lab works on problems in mathematical imaging, medical imaging, machine learning, and optimization. This website provides a brief overview of our research, publications, and members. Thank you for visiting.
 
 <p style="padding: 1rem"></p>

@@ -1,6 +1,6 @@
-# SJTU Imaging-Optimization Group
+# SJTU LIMO Lab
 
-Homepage of the Imaging-Optimization Group at the Institute of Natural Sciences, Shanghai Jiao Tong University.
+Homepage of the Lab for Imaging, Machine Learning and Optimization (LIMO) at the Institute of Natural Sciences, Shanghai Jiao Tong University.
 
 **Website:** [https://insimaging.github.io](https://insimaging.github.io)
 
@@ -11,8 +11,7 @@ Homepage of the Imaging-Optimization Group at the Institute of Natural Sciences,
 - Machine Learning
 - Optimization
 
-## Group
+## Lab
 
-The group is led by [Prof. Xiaoqun Zhang](https://math.sjtu.edu.cn/faculty/xqzhang/) and [Prof. Jingwei Liang](https://jliang993.github.io/) at the Institute of Natural Sciences, Shanghai Jiao Tong University.
-
+The lab is led by [Prof. Xiaoqun Zhang](https://math.sjtu.edu.cn/faculty/xqzhang/) and [Prof. Jingwei Liang](https://jliang993.github.io/) at the Institute of Natural Sciences, Shanghai Jiao Tong University.
 
