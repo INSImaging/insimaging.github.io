@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://insimaging.github.io/sitemap.xml
+Sitemap: https://limo-sjtu.github.io/sitemap.xml

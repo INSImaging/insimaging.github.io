@@ -1,6 +1,6 @@
 # Website Update Guide
 
-This document serves as a prompt/reference for future updates to the SJTU Imaging-Optimization Group website (insimaging.github.io).
+This document serves as a prompt/reference for future updates to the SJTU LIMO Lab website (insimaging.github.io).
 
 ## Site Overview
 
