@@ -13,7 +13,7 @@ nav_order: 0
   </div>
   <div class="col-md-8">
     <h2>Xiaoqun Zhang</h2>
-    <p><b>Professor</b><br>
+    <p><b>Distinguished Professor</b><br>
     <a href="https://math.sjtu.edu.cn/" target="_blank">School of Mathematical Sciences</a> and
     <a href="http://ins.sjtu.edu.cn/" target="_blank">Institute of Natural Sciences</a><br>
     <a href="https://www.sjtu.edu.cn/" target="_blank">Shanghai Jiao Tong University</a></p>
@@ -44,7 +44,8 @@ Institute of Natural Sciences, Shanghai Jiao Tong University<br>
 <h3 class="section-title">Short Curriculum Vitae</h3>
 
 **School of Mathematical Sciences and Institute of Natural Sciences, Shanghai Jiao Tong University**
-- Jan 2017 - Present: Professor
+- Jan 2022 - Present: Distinguished Professor
+- Jan 2017 - Dec 2021: Professor
 - Jul 2010 - Dec 2016: Distinguished Research Fellow (Associate Professor)
 
 **Department of Mathematics, University of California, Los Angeles**
