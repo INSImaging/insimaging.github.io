@@ -3,7 +3,7 @@ layout: page
 title: Research
 permalink: /research/
 description: Our research scope.
-nav: true
+nav: false
 nav_order: 2
 display_categories: [work, fun]
 horizontal: true
